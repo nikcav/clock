@@ -96,7 +96,7 @@ for(int i = 1; i < num; i++) {
   // connects the points with a line
   for(int i=1; i<num; i++) {    
     stroke(255);
-    strokeWeight(2);
+    strokeWeight(5);
     line(ax[i-1], ay[i-1], ax[i], ay[i]);
 }
 
@@ -116,7 +116,7 @@ for(int i2 = 1; i2 < num; i2++) {
   // connects the points with a line
   for(int i2=1; i2<num; i2++) {    
     stroke(255);
-    strokeWeight(2);
+    strokeWeight(5);
     line(bx[i2-1], by[i2-1], bx[i2], by[i2]);
 }
 
@@ -136,7 +136,7 @@ for(int i3 = 1; i3 < num; i3++) {
   // connects the points with a line
   for(int i3=1; i3<num; i3++) {    
     stroke(255);
-    strokeWeight(2);
+    strokeWeight(5);
     line(cx[i3-1], cy[i3-1], cx[i3], cy[i3]);
 }
 
